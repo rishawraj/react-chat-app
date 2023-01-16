@@ -13,8 +13,8 @@ This is a simple chat application built using React and Firebase as the backend.
 
 ### Built With
 
-[React](https://reactjs.org/) - A JavaScript library for building user interfaces
-[Firebase](https://firebase.google.com/) - A Backend-as-a-Service platform
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Firebase](https://firebase.google.com/) - A Backend-as-a-Service platform
 
 ### Contributing
 
