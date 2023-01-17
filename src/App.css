@@ -55,19 +55,25 @@ main::-webkit-scrollbar-thumb {
 }
 
 form {
-  height: 10vh;
+  height: 7vh;
   position: fixed;
   bottom: 0;
   background-color: rgb(24, 23, 23);
   width: 100%;
   max-width: 728px;
   display: flex;
+  /* flex-direction: column`; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
   font-size: 1.5rem;
 }
 
 form button {
-  width: 20%;
-  background-color: rgb(56, 56, 143);
+  /* width: 20%; */
+  /* background-color: rgb(56, 56, 143); */
+  background-color: #e5e5ea;
 }
 
 input {
@@ -82,7 +88,7 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color: #282c34;
   border: none;
   color: white;
   padding: 15px 32px;

@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./App.css";
+import sendIcon from "../src/3106856.png";
 
 import firebase from "firebase/compat/app";
 import "firebase/compat/analytics";
@@ -107,7 +108,9 @@ function ChatRoom() {
           onChange={(e) => setFormValuel(e.target.value)}
           required
         />
-        <button type="submit">send</button>
+        <button className="send-btn" type="submit">
+          <img src={sendIcon} />
+        </button>
       </form>
     </>
   );
